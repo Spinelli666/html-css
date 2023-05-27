@@ -1,0 +1,92 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+1 - Primeiros passos em Tipografia
+
+Monge Copista: Eram as pessoas que copiavam os livros
+
+1450, o Johannes Gutemberg, criou a prensa mecânica dos tipos móveis (foi criada pelos chineses primeiro, mas foi considerado o pai da imprensa)
+ Tipo grafia = Týpos Graphia
+
+- O "x" minúsculo define toda a base do resto das palavras
+
+Ascendente e Descendente -> altura que escapou a letra maiúscula
+
+Altura X, Altura das maiúscula, ascendente e descendente, Altura do corpo
+
+Importância de uma serifa: Vai guiar a leitura, facilitar o seu cérebro
+----------------------------------------------------------------------------
+Anatomias Geométricas:
+
+Haste, Filete (liga algumas letras tipo "e"), Vértice, Esporão (para não deixar a letra cair "b"), Arco e Terminal
+
+Anatomias humanizadas:
+
+Pé ("A), Perna ("k"), Braço ("k"), Espinha ("s"), Barriga ("b"), Olho ("Q"), Orelha ("g"), Cauda ("g")
+
+Glifo -> É uma letra
+Fonte -> Conunto de todos os glifos determinados em uma família.
+----------------------------------------------------------------------------
+Tamanho de fonte e suas medidas:
+
+/* Medidas Absolutas
+   cm, mm, in(polegadas), px, pt (ponto), pc
+
+   Medidas Relativas
+   em, ex, rem, vw, vh, %
+*/ 
+
+Usarmeos mais a medida "em" e "px"
+----------------------------------------------------------------------------
+Peso, estilo e shorthand font
+
+font-weight (peso da fonte)
+
+- Nem toda fonte tem sua variação
+
+font-size: 1em;
+font-weight: bolder;
+font-style: italic;
+text-decoration: underline;
+
+/*lighter, normal, bold, bolder*/
+/*wight (peso), width (largura), height (altura)*/
+
+------------------------
+Para simplificar podmeos fazer tudo numa linha, só que numa ordem
+
+font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /* shorthand font
+            
+            - font-style -> font-weight -> font size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+----------------------------------------------------------------------------
+Site para pegar fontes: Google Font
+Site para baixar fontes: Dafont
+
+Caso queria usar uma fonte baixada, baixe e extrai ela para a pasta que está seu site.
+Dentro do "style" na cabeça precisa colocar o comando "@font-face"
+
+Exemplo:
+
+@font-face {
+            font-family: 'Love';
+            src: url('love story ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+----------------------------------------------------------------------------
+
+"text-indent" -> Para indentação (Deixar um espacinho no início do texto)

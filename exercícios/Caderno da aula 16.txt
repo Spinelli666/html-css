@@ -1,0 +1,33 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Height - Altura
+Width - Largura
+Border - Borda
+Padding - Preenchimento
+Margin - Margem
+Outline- Contorno ou Traçado
+
+Caixa do tipo bock-level -> Um elemento dito sempre vai se iniciar em uma nova linha e vai ocupar a largura total do elemento onde ele está contido. Se não estiver contido
+em nenhuma outra caixa, ele vai ocupar 100% da largura do <body>. O elemento mais conhecido é o <div> e suas variações semânticas modernas da HTML5, como <main>, <section>,
+<aside>, etc.
+
+Caixa do tipo inline-level -> Um elemento do tipo não vai começar em uma nova linha, e sim no ponto exato onde foram definidos. E a largura dele vai ocupar apaenas o tamanho
+relativo ao seu conteúdo.
+
+"user agent" -> sempre o navegador que está exibindo o conteúdo
+
+"margin: auto" -> deixar a caixa no meio
+
+"header" -> Cabeçalho (Faz parte do body)
+
+mexer no box-shadow dentro do "user agent" e depois passar para o VSCode
+
+Criando borda personalizado
+
+Propriedades:
+
+            border: 12px solid black;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 28;
+            border-image-repeat: repeat;

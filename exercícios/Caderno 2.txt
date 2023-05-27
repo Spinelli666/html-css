@@ -1,0 +1,179 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Paga ter uma quebra de linha dentro do parágrafo, só usar o comando <br>
+Se eu precisar que as <> apareçam, só usar o comando "&lt;" (Less Than) e "&gt;" (Greater Than)
+
+Para adicionar comentário o comando é "<!-- texto -->"
+
+Site para emoji: emojipedia
+Para colocar emoji o código é "&#xnúmero-do-emoji"
+-------------------------------------------------------------------------
+Para colocar imagem o comando é "img".
+
+Para colocar uma imagem externa é só pegar o endereço da imagem e colar no src.
+Para colocar um ícone lá em cima precisa ir na área "head" e digitar "link" ai é só procurar o link que tem o favicon
+-------------------------------------------------------------------------
+
+Os títulos vao de h1 até h6
+
+HTML 5 não foca mais em forma e sim em semântica
+
+Para deixar em itálico, um valor não semâtica tu pode usar sublinhar o que quer por e depois usar o comando CRTL+SHIFT+P -> Você digitara abb(para abreviação) e depois digitar i e apertar ENTER
+Usar -> "strong" para negrito e "em" para itálico
+
+
+Usar -> "mark" para marcar textos e se quiser mudar a cor só colocar dentro da tag "style"
+Obs: Se quiser para todos os marcadores só colocar esse comando na head
+
+<style>
+        mark {
+            background-color: lime;
+        }
+</style>
+
+Usar -> "del" para texto deletado e "ins" para texto inserido
+Usar -> "sub" para texto sobrescrito e "sub" para testo subscrito
+-------------------------------------------------------------------------
+Para Código-fonte / Pré-formatação é usar:
+
+<h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementByID('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    printf(f'O número {num} é PAR')
+else:
+    printf(f'O número {num} é IMPAR')
+printf('Fim do programa')
+        </code>
+    </pre>
+-------------------------------------------------------------------------
+Para dá um sentido de citação, você usa a tag "q"
+
+Para citações em blocos pode usar o comando "blockquote" e se quiser citar da onde vem a frase coloca dentor do comando a palavra "cite"
+
+Para abreviações só usar a tag "abbr"
+Para texto invertido só usar a tag "bdo"
+-------------------------------------------------------------------------
+Listas
+
+Listas Ordenadas - tag "ol"
+
+Para criar lista tag "li" (o </li> se tornou opcional dps do HTML5)
+Para personalizar só botar o "type" dentro da tag "ol"
+
+Listas não Ordenadas - tag "ul"
+
+Para criar lista tag "li" (o </li> se tornou opcional dps do HTML5)
+Para personalizar só botar o "type" dentro da tag "ul"
+
+Pode colocar uma lista dentro de outra lista fazendo isso:
+
+ <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+          <li>Clipper</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+        </ol>
+    </ol>
+
+Se eu quiser que a lista comece em alguma outra palavra ou número precisa colocar a tag "start", mas ela funciona como parâmetro numérico
+
+Para Lista de Definições você usa a tag "dl"
+Dentro da tag "dl" tu coloca o "dt" (Termo) e "dd" (Definição)
+-------------------------------------------------------------------------
+SEO -> Search End Otimization
+Organizar o código para o mecanismo do Google te achar
+
+Para criar um link externo só envelopar com a tag "a" e digitar a URL
+
+target="_blank" rel="external" -> Abrir uma nova janela
+
+rel="next" -> Vai facilitar o mecanismo de busca que estou criando para o meu site
+rel="prev" -> Vai facilitar o mecanismo de busca que estou criando para o meu site
+rel-"nofollow -> Não quer que o mecanismo de busca imperpetue essa busca
+
+Links internos com caminhos
+
+Ctrl + Space para utilizar o caminho das páginas
+
+target="_self" -> para abrir na mesma janela
+
+Para eu retornar para a pasta anterior (voltar para outra página), usar o comando <a href="../url"></a>
+
+Links para dowload
+
+<h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="Ligações em toda parte.pdf" type="appication/pdf">Baixar livro em PDF</a></li>
+    </ul>
+-------------------------------------------------------------------------
+Imagem Dinâmica
+
+Imagem Celular = 300x300
+Imagem tablet = 700x700
+Imagem TV e tc = 1000x1000
+
+Trabalhando com mídia de tamanho diferentes com a tag <picture>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+-------------------------------------------------------------------------
+Reproduzindo áudios
+
+<h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--<audio src="midia/happy-mistake.mp3" controls autoplay></audio>-->
+    <!-- MP3 WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.mp3" type="audio/ogg">
+        <source src="midia/happy-mistake.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/happy-mistake.mp3">Clique aqui para baixar o arquivo em MP3</a></p>
+    </audio>
+
+Obs: Fazer em ordem correta (MPEG > OGG > WAY (tentar evitar smepre de usar o wav)
+Obs 2: "preload" - auto, metadata e none / loop - dá o loop sempre que o vídeo terminar
+-------------------------------------------------------------------------
+Formato de vídeos para o site
+
+Dica para diminuir vídeos: Usaro programa handbrake
+Dica 2: Usar todos
+
+<h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width="500" controls> <!-- Para botar capa no vídeo só coloca (poster="")-->>
+        <source src="midia/john-cena.mp4" type="video/mp4">
+        <!--<source src="midia/john-cena.m4v" type="video/mp4">-->
+        <source src="midia/john-cena.webm" type="video/webm">
+        <!--<source src="midia/john-cena.ogv" type="video/ogg">-->
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+Obs: Quando você hospeda o site, voce tem um consumo de X GB, um consumo muito grande pesa no bolso do cliente. Falar com o cliente que vídeos hospedados da tag vídeo, vão consumir muitos tráficos de dados
+
+Outra forma de inserir vídeos no site, é colocar no youtube e pegar o link "inserir" de lá
+Opção do Viemo também
+-------------------------------------------------------------------------
+Estilos CSS Inline
+
+-> Bom para alterar pequenas coisas ou pontuais, não utilizvel dia a dia
+
+Estilos Locais ou Internos
+
+-> Vantagem desse método é que se faz uma vez ao invés de várias, você escreve na "head"
+Desvantagem: Incomoda em questão de estilo; Se quiser mais páginas, teria que fazer em todas as páginas
+
+Estilos CSS Externos
+
+Na cabeça do arquivo você cria um link (css) e faz u marquivo dele.
+Tem a regra @charset "UTF-8"; para acentuação

@@ -1,0 +1,25 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Nós indentificamos os componentes do HTML como id
+
+Exemplo: id=""
+
+    em HTML é id = en CSS é # (só pode um elemento)    
+    em HTML é class = em CSS é . (pode vários elementos)
+
+Um "id" vai identificar um elementos único dentro da página atual. Essa identificação vai nos permitir criar um estilo especial para um elemento isolado. Já um "class"
+vai identificar uma classe à qual um ou mais elementos pertençam, compartilhando características em comum a todos os que façam parte desse grupo.
+
+Uma pseudo-classe CSS é uma palavra-chave adicionada ás declarações de um seletor após um sinal de dois pontos e especificam um estado especial de um elemento.
+Existem várias pseudo-classes para estilos, podemos citar :hover, :visited, :active, :checked, :empty e :focus
+
+Já um pseudo-elemntos CSS é uma palavra-chave adicionada às declarações de um seletor após dois sinais de dois pontos e permitem que você formate um pedaço específico do
+elemento referenciado. Os principais pseudo-elementos usados nas CSS são ::before, ::after, ;;first-letter, ;;firstline
+
+/*
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+*/

@@ -1,0 +1,127 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO MATERIAL DE APOIO
+
+Capítulo 1 Aula 0 até Capítulo 2 Aula 1
+
+Repositórios Públicos - github.com/gustavoguanabara
+			gustavoguanabara.github.io
+
+Material de Apoio
+
+- DevWeb: História da Internet
+
+Referências on-line
+
+- Referência MDN (mozilla Developer Network)
+- W3C Standards: World Wide Web Consortium
+- Whatwg Living Standard
+- W3Schools
+
+Livros
+
+- Mark Pilgrim HTML 5
+- Eric Meyer CSS
+- Estelle Weyl Flexbox in CSS
+- Eric Meyer Grid Layout in CSS
+
+- Elizaneth Castro e Bruce Hyslop HTML5 e CSS3
+- Jon Ducket HTML&CSS
+- Elisabeth Robson e Eric Freeman HTML e CSS
+- Nate Cooper e Kim Gae "Crie seu próprio Site"	    
+
+A Internet veio da ARPANET que foi inventada durante a Guerra Fria para proteger centro militares 
+(fazer backups e comunicações de bases militares)
+
+- UTF-8 -> Adiciona ao documento atual o suporte a caracteres acentuados. 
+O código multibyte ele utilizar de um a quatro bytes para representar letras simbolos, caracteres acentuados, emojis e o computador vai entender como zero e um
+
+1024 bytes = 1 KB
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
+
+MB = MEGABYTES -> Representar Armazenamento
+Mb = MEGABITS -> Representa Transmissão
+-------------------------------------------
+
+Capítulo 2 Aula 2
+
+Para criar um site vai precisar ter o Domínio e a Hospedagem
+
+Domínio:
+ - Nome único, não pode ter dois Domínios
+ - Para lgo masi profissional, precisa pagar um Domínio anualmente
+ - Vários TLDs (precisa escolher um TLD - Top Level Domain)
+
+Hospedagem:
+ - Espaço para armazenar arquivos
+ - Pago mensalmente
+ - Espaço, memória, recursos
+
+GTLD - Generic Top Level Domain 
+-------------------------------------------
+
+Capítulo 3 Aula 1
+
+HTML -> Hypertext Markup Language
+CSS -> Cascading Style Sheets
+
+HTML é focada em conteúdo (textos, imagens, vídeos, tabelas, listas)
+CSS é focada em design (cores, sombras, tamanhos, posicionamento)
+JS é focada em interações (menuns, animações, popups, validações)
+
+HTML funciona baseada em marcações específicas cahamadas tagas. Uma tag é um conjunto de palavras entre sinais de colchete angular.
+
+Exemplo:
+
+<h1> Exemplo de título </h1>
+
+Abertura de tag - Conteúdo - Fechamento de tag
+
+CSS são realizadas através dos seletores.
+
+Exemplo:
+
+  h1{
+     font-family: Arial;
+     font-size: 20pt;
+     color: blue;
+    }	
+
+No final de cada declaração, tem que colocar ponto-e-vírgula para indicar que ela se encerrour.
+Todas as propriedasdes devem ter seu valor, e eles devem ser separados por dois pontos.
+
+Estrutura básica de um documento HTML
+
+1 <!DOCTYPE html>
+2 <html lang="pt-bt">
+3 <head>
+4      <meta charset="UTF-8>
+5      <meta name="viewport" content ="width=device-width,
+       initial-scale=1.0">  	
+6      <title>Document</title>
+7 </head>
+8 <body>
+9
+10 </body>
+11 </html>
+
+Linha 1: Indica que o documento atual será escrito na versão mais atualizada da linguagem (no caso, HTML5)
+Linha 2 e 11: Delimitam o documento HTML, que é sempre dividido em duas partes: a cabeça e o corpo. Na linha 2, também estamos indicando que o conteúdo desse dite será no inidioba pt-b
+Linha 3 e 7: Delimitam a cabeça da página, local onde são realizadas algumas configurações iniciais como formatos, estilos, ícones de favoritos, etc.
+Linha 4: Adiciona ao documento atual o suporte a caracteres acentuados. 
+Remover essas linha pode causar erros de renderização de algumas letras na tela.
+Linha 5: Indica que o conteúdo aparecerá, por padrão, ocupando todo o espaço disponível da tela e com uma escala de 1:1
+Linha 6: Configura o título da página, que aparecerá como indetificação da aba do navegador, ao lado do favicon.
+Linha 8 e 10: Delimitam o corpo da página, a maior porção do site, que vai aparecer na tela. É aqui onde colocaremos todo o conteúdo.
+-------------------------------------------
+
+Capítulo 3 Aula 2
+
+Front-end -> Tecnologias que vão rodar ao lado do cliente (gerar parte visual e interativa pro site)
+Back-end -> Tecnologias que vão rodar ao lado do servidor (interação com o código ao servidor)
+
+Full-stcak -> Quando você mexe com os dois
