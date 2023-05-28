@@ -4,3 +4,5 @@ Dica: Colocar uma cor de fundo enquanto carrega a imagem de ufno para seu client
 
 Shorthand - background
  color > imagem > position > repeat > [size] > attachment
+
+ Posição relativa -> todo posicionamento de um box é relativo
