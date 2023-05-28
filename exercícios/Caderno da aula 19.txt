@@ -1,1 +1,3 @@
 https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Dica: Colocar uma cor de fundo enquanto carrega a imagem de ufno para seu cliente
