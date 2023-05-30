@@ -14,3 +14,13 @@ Se a hierarquia não vou obedecida, vai aparecer ou antes ou depois
 
 text-align: center; /* Alinhamento horizontal */
 vertical-align: middle; /* Alinhamento Vertical*/
+
+ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+ 
