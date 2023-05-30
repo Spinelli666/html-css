@@ -10,4 +10,7 @@ Tabelas
 
 /tr e /td -> Não são obrigatórios
 
-Se a hierarquia não vou obdecida, vai aparecer ou antes ou depois
+Se a hierarquia não vou obedecida, vai aparecer ou antes ou depois
+
+text-align: center; /* Alinhamento horizontal */
+vertical-align: middle; /* Alinhamento Vertical*/
