@@ -1,0 +1,13 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Tabelas
+
+ HIERARQUIA DE TABELAS (simples)
+            Table = tabela
+                TABLE ROW = linha de tabela
+                    TABLE HEADER = cabeçalho de tabela
+                    TABLE DATA  = dado de tabela
+
+/tr e /td -> Não são obrigatórios
+
+Se a hierarquia não vou obdecida, vai aparecer ou antes ou depois
