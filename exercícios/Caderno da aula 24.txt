@@ -1,0 +1,7 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Iframe tem tamanho padrão de 300x150
+ 
+ Dá para tirar o scroll em alguns locais, exemplo: Macs dá para tirar
+
+ "frameborder" (bordas)
