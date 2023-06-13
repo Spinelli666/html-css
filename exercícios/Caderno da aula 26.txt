@@ -1,0 +1,3 @@
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
+
+Quando uso o "media" eu posso informar medias types (não precisa usar "()" ) e media freatures (são indicados dentro de "()" )
