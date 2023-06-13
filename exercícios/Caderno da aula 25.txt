@@ -1,3 +1,5 @@
 https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf - ENDEREÇO DO MATERAL DE APOIO
 
-Quando eu for usar o controle de arquivos eu tneh oque usar o método POST
+Quando eu for usar o controle de arquivos eu tenho que usar o método POST
+
+Método GET -> Todo formulário tem um limite de 3 mil bytes para enviar
